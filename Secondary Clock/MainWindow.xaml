@@ -1,0 +1,8 @@
+﻿<Window x:Class="Secondary_Clock.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="38" Width="84" Topmost="True" ResizeMode="NoResize" AllowsTransparency="True" WindowStyle="None" Background="#00FFFF00" Loaded="MoveForm" ShowInTaskbar="False">
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Height="38" Margin="5,0">
+        <TextBlock x:Name="TimeBlock" TextWrapping="Wrap" Height="36" Width="84" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" Margin="-5,2,-5,0"/>
+    </Grid>
+</Window>
